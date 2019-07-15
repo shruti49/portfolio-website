@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body,
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+/*****************HEADER****************/
+header {
+  width: 100%;
+  background: rgb(204, 38, 60);
+
+  position: fixed;
+}
+
+.main-nav ul {
+  list-style: none;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  padding: 1.8rem;
+}
+
+.main-nav__link {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-nav ul li:hover {
+  background: rgba(3, 3, 92, 0.658);
+  cursor: pointer;
+}
+
+/***************ABOUT SECTION***************/
+.about {
+  background: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h1 {
+  font-size: 5.5rem;
+  font-weight: bold;
+}
+
+.about p {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+/*****************PROJECT SECTION*****************/
+section#projects {
+  background: cadetblue;
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+section#projects h1 {
+  font-size: 4rem;
+  word-spacing: 1rem;
+  border-bottom: 3px solid;
+  display: inline-block;
+}
+
+.projects-grid {
+  width: 100%;
+  max-width: 128rem;
+  margin: 5rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+  grid-gap: 4rem;
+}
+
+.projects-grid_item {
+  background: #444;
+  border-radius: 2px;
+  height: 40rem;
+}
+
+.projects-grid_item img {
+  width: 100%;
+  height: calc(100% - 6.8rem);
+  object-fit: cover;
+}
+
+.projects-grid_item p {
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+button {
+  font-size: 2.5rem;
+  border: none;
+  padding: 1rem 3rem;
+}
