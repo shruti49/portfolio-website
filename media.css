@@ -1,0 +1,12 @@
+@media only screen and (max-width: 46rem) {
+    .main-nav ul {
+       text-align: center;
+    }
+    .contact-links {
+       flex-wrap: wrap;
+    }
+    .contact-links a {
+       margin-bottom: 1rem;
+    }
+  }
+  
