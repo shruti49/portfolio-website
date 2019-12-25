@@ -33,7 +33,7 @@ header {
   text-decoration: none;
   font-size: 2.5rem;
   color: #21564b;
-  font-family: "Pacifico", cursive;
+  font-family: "Pacifico", cursive, sans-serif;
   cursor: pointer;
 }
 
@@ -59,9 +59,9 @@ header {
 }
 
 /***************ABOUT SECTION***************/
-.about {
-  background: black;
-  color: white;
+.about-section {
+  background: #e0ebe8;
+  color: #21564b;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -69,14 +69,20 @@ header {
   text-align: center;
 }
 
-.about h1 {
+.about-section h2 {
   font-size: 5.5rem;
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 
-.about p {
+.about-section h3 {
+  font-size: 5.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
   font-size: 2.5rem;
-  margin-top: 2rem;
 }
 
 /*****************PROJECT SECTION*****************/

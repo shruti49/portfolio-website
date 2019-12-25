@@ -1,0 +1,26 @@
+@media only screen and (max-width: 36rem) {
+  .main-nav {
+    width: 32rem;
+  }
+  .main-nav ul {
+    width: 20rem;
+    justify-content: space-between;
+  }
+  .about__link {
+    font-size: 2rem;
+  }
+  .main-nav__link {
+    font-size: 1.6rem;
+  }
+  .about-section {
+    height: 70vh;
+  }
+  .about-section .welcome {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .about-section .name {
+    font-size: 4rem;
+    font-weight: 300;
+  }
+}
