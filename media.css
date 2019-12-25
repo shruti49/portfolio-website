@@ -1,4 +1,4 @@
-@media only screen and (max-width: 46rem) {
+/* @media only screen and (max-width: 46rem) {
     .main-nav ul {
        text-align: center;
     }
@@ -9,4 +9,19 @@
        margin-bottom: 1rem;
     }
   }
-  
+   */
+
+@media only screen and (max-width: 36rem) {
+  .main-nav {
+    width: 32rem;
+  }
+  .main-nav ul {
+    width: 20rem;
+  }
+  .about__link {
+    font-size: 2rem;
+  }
+  .main-nav__link {
+    font-size: 1.7rem;
+  }
+}

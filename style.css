@@ -14,31 +14,47 @@ html {
 /*****************HEADER****************/
 header {
   width: 100%;
-  background: rgb(204, 38, 60);
+  height: 7rem;
+  background-color: #e0ebe8;
+  display: flex;
+  justify-content: center;
 
   position: fixed;
 }
 
-.main-nav ul {
-  list-style: none;
-  text-align: right;
-  margin-right: 1rem;
+.main-nav {
+  width: 120rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.main-nav ul li {
-  display: inline-block;
-  padding: 1.8rem;
+.about__link {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #21564b;
+  font-family: "Pacifico", cursive;
+  cursor: pointer;
+}
+
+.main-nav ul {
+  list-style: none;
+  font-weight: 600;
+  width: 40rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .main-nav__link {
-  font-size: 2.5rem;
-  text-transform: capitalize;
+  font-size: 2rem;
   text-decoration: none;
-  color: #fff;
+  color: #45b29a;
 }
 
-.main-nav ul li:hover {
-  background: rgba(3, 3, 92, 0.658);
+.main-nav__link:hover {
+  color: #21564b;
+  border-bottom: 2px solid #45b29a;
+  transition: color 0.3s;
   cursor: pointer;
 }
 
