@@ -9,40 +9,35 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /*****************HEADER****************/
 header {
   width: 100%;
-  height: 7rem;
+  height: 50rem;
   background-color: #e0ebe8;
   display: flex;
-  justify-content: center;
-
-  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
 }
 
 .main-nav {
-  width: 120rem;
+  padding-top: 5rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  position: fixed;
 
-.about__link {
-  text-decoration: none;
-  font-size: 2.5rem;
-  color: #21564b;
-  font-family: "Pacifico", cursive, sans-serif;
-  cursor: pointer;
+  z-index: 200;
 }
 
 .main-nav ul {
   list-style: none;
   font-weight: 600;
-  width: 40rem;
+  width: 50rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-nav__link {
@@ -58,34 +53,66 @@ header {
   cursor: pointer;
 }
 
-/***************ABOUT SECTION***************/
-.about-section {
-  background: #e0ebe8;
+.welcome-section {
+  width: 100%;
+  padding: 20rem 0;
+  background-color: #e0ebe8;
   color: #21564b;
-  height: 100vh;
+  z-index: 100;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-.about-section h2 {
-  font-size: 5.5rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
+.welcome-section h3 {
+  font-family: "Pacifico", cursive, sans-serif;
+  z-index: 0;
 }
 
-.about-section h3 {
+.welcome-section h2 {
   font-size: 5.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  font-family: "Pacifico", cursive, sans-serif;
 }
 
-.about-section p {
+.welcome-section p {
   font-size: 2.5rem;
 }
 
-/*****************PROJECT SECTION*****************/
+/****************ABOUT SECTION*****************/
+
+.about-section {
+  height: 43rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  margin: 10rem 0 5em;
+}
+
+.greet {
+  font-size: 5.5rem;
+  text-transform: capitalize;
+  color: #1e836c;
+}
+
+.aboutme-description {
+  font-size: 2rem;
+  /*word-wrap: break-word;*/
+}
+
+.about-btn_download {
+  border: none;
+  background-color: #45b29a;
+  padding: 1rem;
+  border-radius: 2px;
+  font-size: 5rem;
+  text-transform: capitalize;
+}
+/****************PROJECT SECTION*****************/
 section#projects {
   background: #45567d;
   text-align: center;

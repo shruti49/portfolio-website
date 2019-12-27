@@ -1,26 +1,39 @@
 @media only screen and (max-width: 36rem) {
-  .main-nav {
-    width: 32rem;
-  }
   .main-nav ul {
-    width: 20rem;
+    width: 30rem;
     justify-content: space-between;
   }
-  .about__link {
-    font-size: 2rem;
-  }
   .main-nav__link {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
-  .about-section {
-    height: 70vh;
-  }
-  .about-section .welcome {
+  .welcome-section .welcome {
     font-size: 3rem;
     font-weight: 300;
   }
-  .about-section .name {
+  .welcome-section .name {
     font-size: 4rem;
     font-weight: 300;
+  }
+  .welcome-section h3 {
+    font-size: 3rem;
+  }
+  .about-img {
+    height: 15rem;
+  }
+  .greet {
+    font-size: 2.5rem;
+  }
+
+  .about-section {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .aboutme-description {
+    font-size: 1.8rem;
+  }
+
+  .about-btn_download {
+    font-size: 1.7rem;
   }
 }
