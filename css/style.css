@@ -22,8 +22,7 @@ header {
   flex-direction: column;
   align-items: center;
 
-  background-image: linear-gradient(#d2e2de, #e0ebe8),
-    url("../img/headerimg.jpg");
+  background-image: linear-gradient(#d2e2de, #e0ebe8), url(../img/headerimg.jpg);
   background-blend-mode: screen;
   background-size: cover;
   background-position: top;
