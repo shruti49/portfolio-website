@@ -96,6 +96,7 @@ header {
   height: 50rem;
   padding: 10rem 0;
   text-align: center;
+  background: #f7f7f7;
 }
 
 .aboutme-title {
@@ -103,6 +104,7 @@ header {
   text-transform: capitalize;
   color: #1e836c;
   margin-bottom: 2rem;
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .aboutme-description {
@@ -117,13 +119,13 @@ header {
   border-radius: 2px;
   font-size: 5rem;
   text-transform: capitalize;
+  color: #fff;
 }
 /****************PROJECT SECTION*****************/
 .project-section {
-  background: #e0ebe8;
   text-align: center;
-  margin: 5rem 0;
   padding: 10rem 0;
+  background: #f7f7f7;
 
   display: flex;
   flex-direction: column;
@@ -136,7 +138,14 @@ header {
   text-transform: capitalize;
   color: #1e836c;
   display: inline-block;
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
+
+/* .project-section_title:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5);
+ 
+} */
 
 .projects-grid {
   width: 100%;
@@ -149,9 +158,10 @@ header {
 }
 
 .project-tile {
-  background: #444;
+  background: #45b29a;
   border-radius: 2px;
   height: 40rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
 }
 
 .project-tile img {

@@ -24,13 +24,10 @@
     font-size: 2.5rem;
   }
 
-  .about-section {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
   .aboutme-description {
     font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .about-btn_download {
@@ -38,5 +35,9 @@
   }
   .project-section_title {
     font-size: 2.5rem;
+  }
+  .projects-grid {
+    max-width: 30rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }
 }
