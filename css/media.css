@@ -37,8 +37,8 @@
     font-size: 2.5rem;
   }
   .projects-grid {
-    max-width: 30rem;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    max-width: 33rem;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   }
   .project-tile {
     height: 30rem;
