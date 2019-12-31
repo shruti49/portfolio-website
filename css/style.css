@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*****************HEADER****************/
 header {
   width: 100%;
@@ -50,7 +54,8 @@ header {
   align-items: center;
 }
 
-.main-nav__link {
+.main-nav__link,
+.main-nav__link:link {
   font-size: 2rem;
   text-decoration: none;
   color: #45b29a;
@@ -66,7 +71,6 @@ header {
 .main-nav__link:active,
 .main-nav__link:visited {
   border-bottom: 2px solid #45b29a;
-  cursor: pointer;
 }
 
 .welcome-section {
@@ -126,6 +130,15 @@ header {
   font-size: 1.8rem;
   text-transform: capitalize;
   color: #fff;
+  cursor: pointer;
+}
+
+.about-btn_download:focus {
+  outline: none;
+}
+
+.about-btn_download > i {
+  margin-left: 1rem;
 }
 
 .about-btn_download:hover {
@@ -178,7 +191,6 @@ header {
 .project-tile img {
   width: 100%;
   height: calc(100% - 6.8rem);
-  object-fit: cover;
 }
 
 .project-tile p {
@@ -212,16 +224,6 @@ header {
 }
 
 /******SKILLS SECTION*************/
-
-
-
-
-
-
-
-
-
-
 
 /******CONTACT SECTION*************/
 section#contact {

@@ -40,4 +40,7 @@
     max-width: 30rem;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }
+  .project-tile {
+    height: 30rem;
+  }
 }
