@@ -1,9 +1,8 @@
-
 /****************PROJECT SECTION*****************/
 .project-section {
+  padding-top: $top-padding;
   text-align: center;
-  padding: 10rem 0;
-  background: #f7f7f7;
+  background: $color-one;
 
   display: flex;
   flex-direction: column;
@@ -14,14 +13,14 @@
   font-size: 4rem;
   word-spacing: 0.5rem;
   text-transform: capitalize;
-  color: #1e836c;
+  color: $color-green-three;
   display: inline-block;
 }
 
 .projects-grid {
   width: 100%;
   max-width: 128rem;
-  margin: 5rem auto;
+  margin: 3rem auto;
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
@@ -29,7 +28,7 @@
 }
 
 .project-tile {
-  background: #fff;
+  background: $color-two;
   border-radius: 2px;
   height: 40rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -49,7 +48,7 @@
 
 .project-tile p {
   margin: 1rem 0;
-  color:$color-tertiary;
+  color: $color-green-two;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -57,9 +56,9 @@
 .btn {
   font-size: 1.8rem;
   padding: 1rem 2rem;
-  background: $color-secondary;
+  background: $color-green-one;
   border-radius: 2px;
-  color: #fff;
+  color: $color-two;
 }
 
 .btn > i {
@@ -68,9 +67,9 @@
 }
 
 .btn:hover {
-  background: #fff;
-  color: $color-secondary;
-  outline: 3px solid $color-secondary;
+  background: $color-two;
+  color: $color-green-one;
+  outline: 3px solid $color-green-one;
   transition: background 0.3s ease-out;
 }
 

@@ -1,17 +1,14 @@
-
 /****************ABOUT SECTION*****************/
-
-.about-section {
-  height: 50rem;
-  padding: 10rem 0;
+.aboutme-section {
+  padding-top: $top-padding;
   text-align: center;
-  background: #f7f7f7;
+  background-color: $color-one;
 }
 
 .aboutme-title {
   font-size: 5.5rem;
   text-transform: capitalize;
-  color: #1e836c;
+  color: $color-green-three;
   margin-bottom: 2rem;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
@@ -21,28 +18,28 @@
   margin-bottom: 2rem;
 }
 
-.about-btn_download {
+.aboutme-btn_download {
   border: none;
-  background-color: $color-secondary;
+  background-color: $color-green-one;
   padding: 1.3rem 2rem;
   border-radius: 2px;
   font-size: 1.8rem;
   text-transform: capitalize;
-  color: #fff;
+  color: $color-two;
   cursor: pointer;
-}
 
-.about-btn_download:focus {
-  outline: none;
-}
+  &:focus {
+    outline: none;
+  }
 
-.about-btn_download > i {
-  margin-left: 1rem;
-}
+  & > i {
+    margin-left: 1rem;
+  }
 
-.about-btn_download:hover {
-  background: #fff;
-  color: $color-secondary;
-  outline: 3px solid $color-secondary;
-  transition: all 0.3s ease-out;
+  &:hover {
+    background: $color-one;
+    color: $color-green-one;
+    outline: 3px solid $color-green-one;
+    transition: all 0.3s ease-out;
+  }
 }

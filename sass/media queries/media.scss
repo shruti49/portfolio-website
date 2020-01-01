@@ -6,20 +6,24 @@
   .main-nav__link {
     font-size: 1.8rem;
   }
-  .welcome-section .welcome {
-    font-size: 3rem;
-    font-weight: 300;
-  }
-  .welcome-section .name {
-    font-size: 4rem;
-    font-weight: 300;
-  }
-  .welcome-section h3 {
-    font-size: 3rem;
-  }
+
   .about-img {
     height: 15rem;
   }
+
+  .welcome-section {
+    font-size: 3rem;
+    font-weight: 600;
+
+    &_header {
+      font-size: 2.5rem;
+    }
+
+    &_name {
+      font-size: 4rem;
+    }
+  }
+
   .aboutme-title,
   .project-section_title,
   .skill-section_title {
@@ -37,7 +41,7 @@
   }
 
   .projects-grid {
-    max-width: 33rem;
+    max-width: 31rem;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   }
   .project-tile {
