@@ -1,0 +1,42 @@
+
+/******CONTACT SECTION*************/
+section#contact {
+  background: #303841;
+  color: #eee;
+  text-align: center;
+  padding: 12.2rem 0;
+  border-bottom: 3px solid rgb(204, 38, 60);
+}
+
+section#contact h2 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+em p {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.contact-links {
+  font-size: 2.5rem;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links a {
+  color: #eee;
+  margin: 0 3rem;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-links a:hover {
+  cursor: pointer;
+  transform: translateY(0.8rem);
+  transition: transform 0.3s ease-out;
+}
+
+.contact-links a i {
+  margin-right: 0.5rem;
+}

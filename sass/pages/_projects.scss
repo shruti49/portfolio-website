@@ -1,0 +1,79 @@
+
+/****************PROJECT SECTION*****************/
+.project-section {
+  text-align: center;
+  padding: 10rem 0;
+  background: #f7f7f7;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-section_title {
+  font-size: 4rem;
+  word-spacing: 0.5rem;
+  text-transform: capitalize;
+  color: #1e836c;
+  display: inline-block;
+}
+
+.projects-grid {
+  width: 100%;
+  max-width: 128rem;
+  margin: 5rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+  grid-gap: 4rem;
+}
+
+.project-tile {
+  background: #fff;
+  border-radius: 2px;
+  height: 40rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  &:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s ease-in;
+  }
+}
+
+.project-tile img {
+  width: 100%;
+  height: calc(100% - 5rem);
+}
+
+.project-tile p {
+  margin: 1rem 0;
+  color:$color-tertiary;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  background: $color-secondary;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.btn > i {
+  margin-left: 1rem;
+  transition: transform 0.3s ease-out;
+}
+
+.btn:hover {
+  background: #fff;
+  color: $color-secondary;
+  outline: 3px solid $color-secondary;
+  transition: background 0.3s ease-out;
+}
+
+.btn:hover > i {
+  transform: translateX(0.3rem);
+}

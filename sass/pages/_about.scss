@@ -1,0 +1,48 @@
+
+/****************ABOUT SECTION*****************/
+
+.about-section {
+  height: 50rem;
+  padding: 10rem 0;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.aboutme-title {
+  font-size: 5.5rem;
+  text-transform: capitalize;
+  color: #1e836c;
+  margin-bottom: 2rem;
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.aboutme-description {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-btn_download {
+  border: none;
+  background-color: $color-secondary;
+  padding: 1.3rem 2rem;
+  border-radius: 2px;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+}
+
+.about-btn_download:focus {
+  outline: none;
+}
+
+.about-btn_download > i {
+  margin-left: 1rem;
+}
+
+.about-btn_download:hover {
+  background: #fff;
+  color: $color-secondary;
+  outline: 3px solid $color-secondary;
+  transition: all 0.3s ease-out;
+}
