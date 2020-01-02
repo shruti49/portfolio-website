@@ -248,33 +248,42 @@ form button {
 
 /**********footer************/
 footer {
-  background: #303841;
-  color: #eee;
-  text-align: center; }
+  background: #f7f7f7;
+  color: #21564b;
+  padding: 1rem 1.5rem; }
 
+.container {
+  display: flex; }
+
+/*
 footer > p {
   font-size: 2rem;
-  padding: 3rem; }
+  padding: 3rem;
+}
 
 .contact-links {
   font-size: 2.5rem;
   margin-top: 6rem;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .contact-links a {
   color: #eee;
   margin: 0 3rem;
-  transition: transform 0.3s ease-out; }
+  transition: transform 0.3s ease-out;
+}
 
 .contact-links a:hover {
   cursor: pointer;
   transform: translateY(0.8rem);
-  transition: transform 0.3s ease-out; }
+  transition: transform 0.3s ease-out;
+}
 
 .contact-links a i {
-  margin-right: 0.5rem; }
-
+  margin-right: 0.5rem;
+}
+*/
 @media only screen and (max-width: 36rem) {
   .main-nav ul {
     width: 30rem;
