@@ -1,8 +1,4 @@
-@media only screen and (max-width: 36rem) {
-  .main-nav ul {
-    width: 30rem;
-    justify-content: space-between;
-  }
+@media only screen and (max-width: 76rem) {
   .main-nav__link {
     font-size: 1.8rem;
   }
@@ -33,8 +29,8 @@
 
   .aboutme-description {
     font-size: 1.8rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
   }
 
   .about-btn_download {
@@ -48,6 +44,9 @@
   .project-tile {
     height: 30rem;
   }
+
+  .container{
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
-

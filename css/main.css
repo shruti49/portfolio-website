@@ -45,7 +45,7 @@ header {
     font-weight: 600;
     width: 50rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; }
 
 .main-nav_link {
@@ -90,7 +90,7 @@ header {
 
 .aboutme-description {
   font-size: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 3rem; }
 
 .aboutme-btn_download {
   border: none;
@@ -176,8 +176,7 @@ header {
 
 /******SKILLS SECTION*************/
 .skill-section {
-  padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding: 10rem 4rem 5rem 4rem;
   text-align: center;
   background-color: #f7f7f7;
   display: flex;
@@ -216,7 +215,7 @@ header {
 .contact-form {
   max-width: 50rem;
   margin: 0 auto;
-  padding: 5rem 0; }
+  padding: 3rem 0 0 0; }
 
 form input {
   display: block;
@@ -250,44 +249,34 @@ form button {
 footer {
   background: #f7f7f7;
   color: #21564b;
-  padding: 1rem 1.5rem; }
+  padding: 2.5rem;
+  text-align: center; }
 
 .container {
   display: flex; }
 
-/*
-footer > p {
-  font-size: 2rem;
-  padding: 3rem;
-}
+.copyright,
+.top-btn {
+  font-size: 1.7rem;
+  margin-bottom: 2rem; }
 
-.contact-links {
-  font-size: 2.5rem;
-  margin-top: 6rem;
-  display: flex;
-  justify-content: center;
-}
+.social ul {
+  display: flex; }
 
-.contact-links a {
-  color: #eee;
-  margin: 0 3rem;
-  transition: transform 0.3s ease-out;
-}
+.social > i {
+  font-size: 2rem; }
 
-.contact-links a:hover {
-  cursor: pointer;
-  transform: translateY(0.8rem);
-  transition: transform 0.3s ease-out;
-}
+.social a {
+  color: #21564b;
+  padding: 1rem;
+  font-size: 2rem; }
 
-.contact-links a i {
-  margin-right: 0.5rem;
-}
-*/
-@media only screen and (max-width: 36rem) {
-  .main-nav ul {
-    width: 30rem;
-    justify-content: space-between; }
+.to-top {
+  border: 3px solid;
+  border-radius: 50%;
+  padding: 5px 8px; }
+
+@media only screen and (max-width: 76rem) {
   .main-nav__link {
     font-size: 1.8rem; }
   .about-img {
@@ -306,12 +295,15 @@ footer > p {
     font-size: 2.5rem; }
   .aboutme-description {
     font-size: 1.8rem;
-    margin-left: 2rem;
-    margin-right: 2rem; }
+    margin-left: 4.5rem;
+    margin-right: 4.5rem; }
   .about-btn_download {
     font-size: 1.7rem; }
   .projects-grid {
     max-width: 31rem;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
   .project-tile {
-    height: 30rem; } }
+    height: 30rem; }
+  .container {
+    flex-direction: column;
+    align-items: center; } }
