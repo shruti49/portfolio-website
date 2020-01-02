@@ -9,3 +9,26 @@ footer > p {
   font-size: 2rem;
   padding: 3rem;
 }
+
+.contact-links {
+  font-size: 2.5rem;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links a {
+  color: #eee;
+  margin: 0 3rem;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-links a:hover {
+  cursor: pointer;
+  transform: translateY(0.8rem);
+  transition: transform 0.3s ease-out;
+}
+
+.contact-links a i {
+  margin-right: 0.5rem;
+}

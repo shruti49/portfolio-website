@@ -125,22 +125,60 @@
     <!------------------- SKILLS END -------------------->
 
     <!------------------- CONTACTS START -------------------->
-    <section id="contact">
-      <h2>Let's work together...</h2>
-      <em>
-        <p>How do you take your coffee?</p>
-      </em>
-      <div class="contact-links">
-        <a href=""><i class="fab fa-facebook-square"></i>Facebook</a>
-        <a href=""><i class="fab fa-twitter-square"></i>Twitter</a>
-        <a href=""><i class="fab fa-github-square"></i></a>
+    <section id="contact" class="contact-section">
+      <h3 class="contact-section_title">Let's work together...</h3>
+      <div class="contact-form">
+        <form method="POST" action="">
+          <input
+            type="hidden"
+            name="_subject"
+            value="Contact request from personal website"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+            class="bgcolor"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your message"
+            class="bgcolor"
+            required
+          ></textarea>
+          <button type="submit" class="bgcolor">Send Message</button>
+        </form>
       </div>
     </section>
     <!------------------- CONTACTS END -------------------->
 
     <!------------------- FOOTER START -------------------->
     <footer>
-      <p>Created by <i class="fas fa-heart"></i></p>
+      <div class="container">
+        <div class="copyright">
+          <p>
+            Copyright © 2020 Shruti Shastri
+          </p>
+        </div>
+        <div class="top-btn"></div>
+        <div class="social">
+          <ul>
+            <li>
+              <a href=""><i class="fa fa-facebook"></i>Facebook</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-twitter"></i>Twitter</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-github"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
     <!------------------- FOOTER END -------------------->
   </body>

@@ -2,6 +2,7 @@
 
 .skill-section {
   padding-top: $top-padding;
+  padding-bottom: 5rem;
   text-align: center;
   background-color: $color-one;
 
@@ -13,7 +14,6 @@
     font-size: 4rem;
     text-transform: capitalize;
     color: $color-green-three;
-    display: inline-block;
   }
 
   &_list {
@@ -27,7 +27,7 @@
       margin: 7px;
       padding: 5px 10px;
       color: $color-green-one;
-      background: $color-one;
+      background: #f7f7f7;
       border: 2px solid;
       cursor: default;
       font-size: 2rem;
