@@ -8,7 +8,7 @@ $color-one: #f7f7f7;
 $color-two: #fff;
 
 //PADDING
-$top-padding: 10rem;
+$padding: 10rem 3rem 5rem 3rem;
 
 .bgcolor {
   background-color: $color-green-four;
@@ -16,4 +16,7 @@ $top-padding: 10rem;
 
 //SIZE
 $size-primary: 1.5rem;
-$size-secondary:3.5rem;
+$size-secondary: 3.5rem;
+
+//COLUMN TEMPLATE
+$column-template: repeat(auto-fill, minmax(25rem, 1fr));

@@ -33,7 +33,7 @@
 
   .projects-grid {
     max-width: 40rem;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-template-columns: $column-template;
   }
   .project-tile {
     height: 40rem;
@@ -54,7 +54,7 @@
 @media only screen and (max-width: 500px) {
   .projects-grid {
     max-width: 31rem;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-template-columns: $column-template;
   }
   .project-tile {
     height: 30rem;
