@@ -1,6 +1,6 @@
 /****************PROJECT SECTION*****************/
 .project-section {
-  padding-top: $top-padding;
+  padding: $top-padding 3rem 0 3rem;
   text-align: center;
   background: $color-one;
 
@@ -10,7 +10,7 @@
 }
 
 .project-section_title {
-  font-size: 4rem;
+  font-size: $size-secondary;
   text-transform: capitalize;
   color: $color-green-three;
 }

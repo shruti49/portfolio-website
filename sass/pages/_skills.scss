@@ -10,7 +10,7 @@
   align-items: center;
 
   &_title {
-    font-size: 4rem;
+    font-size: $size-secondary;
     text-transform: capitalize;
     color: $color-green-three;
   }

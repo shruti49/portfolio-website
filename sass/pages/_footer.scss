@@ -3,17 +3,18 @@ footer {
   background: $color-one;
   color: $color-green-two;
   padding: 2.5rem;
-  text-align: center;
 }
 
 .container {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 10rem;
 }
 
 .copyright,
 .top-btn {
-  font-size: $size;
-  margin-bottom: 2rem;
+  font-size: $size-primary;
 }
 
 .social {

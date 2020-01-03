@@ -77,20 +77,25 @@ header {
 
 /****************ABOUT SECTION*****************/
 .aboutme-section {
-  padding-top: 10rem;
+  padding: 10rem 3rem 5rem 3rem;
   text-align: center;
   background-color: #f7f7f7; }
 
 .aboutme-title {
-  font-size: 5.5rem;
+  font-size: 3.5rem;
   text-transform: capitalize;
   color: #1e836c;
   margin-bottom: 2rem;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.aboutme-img {
+  max-width: 15rem; }
+
 .aboutme-description {
   font-size: 2rem;
-  margin-bottom: 3rem; }
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  max-width: 50rem; }
 
 .aboutme-btn_download {
   border: none;
@@ -113,7 +118,7 @@ header {
 
 /****************PROJECT SECTION*****************/
 .project-section {
-  padding-top: 10rem;
+  padding: 10rem 3rem 0 3rem;
   text-align: center;
   background: #f7f7f7;
   display: flex;
@@ -121,7 +126,7 @@ header {
   align-items: center; }
 
 .project-section_title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-transform: capitalize;
   color: #1e836c; }
 
@@ -176,14 +181,14 @@ header {
 
 /******SKILLS SECTION*************/
 .skill-section {
-  padding: 10rem 4rem 5rem 4rem;
+  padding: 10rem 3rem 5rem 3rem;
   text-align: center;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
   align-items: center; }
   .skill-section_title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-transform: capitalize;
     color: #1e836c; }
   .skill-section_list {
@@ -210,7 +215,7 @@ header {
   padding: 5rem 1.5rem;
   text-transform: capitalize; }
   .contact-section_title {
-    font-size: 5rem; }
+    font-size: 3.5rem; }
 
 .contact-form {
   max-width: 50rem;
@@ -249,16 +254,17 @@ form button {
 footer {
   background: #f7f7f7;
   color: #21564b;
-  padding: 2.5rem;
-  text-align: center; }
+  padding: 2.5rem; }
 
 .container {
-  display: flex; }
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 10rem; }
 
 .copyright,
 .top-btn {
-  font-size: 1.7rem;
-  margin-bottom: 2rem; }
+  font-size: 1.5rem; }
 
 .social ul {
   display: flex; }
@@ -276,11 +282,9 @@ footer {
   border-radius: 50%;
   padding: 5px 8px; }
 
-@media only screen and (max-width: 76rem) {
+@media only screen and (max-width: 768px) {
   .main-nav__link {
     font-size: 1.8rem; }
-  .about-img {
-    height: 15rem; }
   .welcome-section {
     font-size: 3rem;
     font-weight: 600; }
@@ -294,16 +298,25 @@ footer {
   .contact-section_title {
     font-size: 2.5rem; }
   .aboutme-description {
-    font-size: 1.8rem;
-    margin-left: 4.5rem;
-    margin-right: 4.5rem; }
+    font-size: 1.8rem; }
   .about-btn_download {
     font-size: 1.7rem; }
+  .projects-grid {
+    max-width: 40rem;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
+  .project-tile {
+    height: 40rem; }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0; }
+  .copyright,
+  .top-btn {
+    margin-bottom: 2rem; } }
+
+@media only screen and (max-width: 500px) {
   .projects-grid {
     max-width: 31rem;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
   .project-tile {
-    height: 30rem; }
-  .container {
-    flex-direction: column;
-    align-items: center; } }
+    height: 30rem; } }

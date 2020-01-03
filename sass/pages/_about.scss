@@ -1,21 +1,27 @@
 /****************ABOUT SECTION*****************/
 .aboutme-section {
-  padding-top: $top-padding;
+  padding: $top-padding 3rem 5rem 3rem;
   text-align: center;
   background-color: $color-one;
 }
 
 .aboutme-title {
-  font-size: 5.5rem;
+  font-size: $size-secondary;
   text-transform: capitalize;
   color: $color-green-three;
   margin-bottom: 2rem;
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
+.aboutme-img {
+  max-width: 15rem;
+}
+
 .aboutme-description {
   font-size: 2rem;
+  margin: 0 auto;
   margin-bottom: 3rem;
+  max-width: 50rem;
 }
 
 .aboutme-btn_download {
