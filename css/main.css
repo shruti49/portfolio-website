@@ -266,6 +266,15 @@ footer {
 .top-btn {
   font-size: 1.5rem; }
 
+.top-btn {
+  animation: upward infinite 0.7s; }
+
+@keyframes upward {
+  0% {
+    transform: translateY(-5px); }
+  100% {
+    transform: translateY(0px); } }
+
 .social ul {
   display: flex; }
 
@@ -280,7 +289,9 @@ footer {
 .to-top {
   border: 3px solid;
   border-radius: 50%;
-  padding: 5px 8px; }
+  padding: 5px 8px;
+  cursor: pointer;
+  color: #21564b; }
 
 @media only screen and (max-width: 768px) {
   .main-nav__link {

@@ -17,6 +17,19 @@ footer {
   font-size: $size-primary;
 }
 
+.top-btn {
+  animation: upward infinite 0.7s;
+}
+
+@keyframes upward {
+  0% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .social {
   ul {
     display: flex;
@@ -37,4 +50,6 @@ footer {
   border: 3px solid;
   border-radius: 50%;
   padding: 5px 8px;
+  cursor: pointer;
+  color: $color-green-two;
 }
