@@ -66,14 +66,18 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .welcome-section_header, .welcome-section_occupation {
+    font-size: 2.5rem; }
   .welcome-section_name {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
     font-family: "Pacifico", cursive, sans-serif;
-    text-shadow: 2px 2px 4px #fff; }
+    text-shadow: 2px 2px 4px #fff;
+    letter-spacing: 2px; }
   .welcome-section_occupation {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    font-weight: 700; }
 
 /****************ABOUT SECTION*****************/
 .aboutme-section {
@@ -119,7 +123,6 @@ header {
 /****************PROJECT SECTION*****************/
 .project-section {
   padding: 10rem 3rem 0 3rem;
-  text-align: center;
   background: #f7f7f7;
   display: flex;
   flex-direction: column;
@@ -135,29 +138,40 @@ header {
   max-width: 128rem;
   margin: 3rem auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
   grid-gap: 4rem; }
 
 .project-tile {
-  background: #fff;
+  background: #e0ebe8;
   border-radius: 2px;
-  height: 40rem;
+  height: 30rem;
+  padding: 0 2rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
   .project-tile:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: all 0.3s ease-in; }
-
-.project-tile img {
-  width: 100%;
-  height: calc(100% - 5rem); }
-
-.project-tile p {
-  margin: 1rem 0;
-  color: #21564b;
-  font-size: 2rem;
-  font-weight: 600; }
+  .project-tile_title {
+    margin-top: 1rem;
+    color: #21564b;
+    font-size: 2rem;
+    text-transform: capitalize; }
+  .project-tile_descp {
+    font-size: 1.5rem; }
+  .project-tile_stack {
+    margin: 2.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 100; }
+  .project-tile_links {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly; }
+    .project-tile_links a {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #45b29a;
+      text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.24); }
 
 .btn {
   font-size: 1.8rem;
@@ -259,8 +273,7 @@ footer {
 .container {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  padding-right: 10rem; }
+  align-items: center; }
 
 .copyright,
 .top-btn {
@@ -312,11 +325,6 @@ footer {
     font-size: 1.8rem; }
   .about-btn_download {
     font-size: 1.7rem; }
-  .projects-grid {
-    max-width: 40rem;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
-  .project-tile {
-    height: 40rem; }
   .container {
     flex-direction: column;
     align-items: center;
@@ -326,8 +334,5 @@ footer {
     margin-bottom: 2rem; } }
 
 @media only screen and (max-width: 500px) {
-  .projects-grid {
-    max-width: 31rem;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
   .project-tile {
-    height: 30rem; } }
+    height: 20rem; } }

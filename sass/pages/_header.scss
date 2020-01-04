@@ -61,15 +61,22 @@ header {
   flex-direction: column;
   justify-content: center;
 
+  &_header,
+  &_occupation {
+    font-size: 2.5rem;
+  }
+
   &_name {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
     font-family: "Pacifico", cursive, sans-serif;
     text-shadow: 2px 2px 4px $color-two;
+    letter-spacing: 2px;
   }
 
   &_occupation {
     font-size: 2.5rem;
+    font-weight: 700;
   }
 }

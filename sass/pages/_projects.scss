@@ -1,7 +1,6 @@
 /****************PROJECT SECTION*****************/
 .project-section {
   padding: 10rem 3rem 0 3rem;
-  text-align: center;
   background: $color-one;
 
   display: flex;
@@ -21,14 +20,15 @@
   margin: 3rem auto;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
   grid-gap: 4rem;
 }
 
 .project-tile {
-  background: $color-two;
+  background: $color-green-four;
   border-radius: 2px;
-  height: 40rem;
+  height: 30rem;
+  padding: 0 2rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
   &:hover {
@@ -37,18 +37,36 @@
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: all 0.3s ease-in;
   }
-}
 
-.project-tile img {
-  width: 100%;
-  height: calc(100% - 5rem);
-}
+  &_title {
+    margin-top: 1rem;
+    color: $color-green-two;
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
 
-.project-tile p {
-  margin: 1rem 0;
-  color: $color-green-two;
-  font-size: 2rem;
-  font-weight: 600;
+  &_descp {
+    font-size: 1.5rem;
+  }
+
+  &_stack {
+    margin: 2.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+  &_links {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+
+      a {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: $color-green-one;
+      text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.24);
+    }
+  }
 }
 
 .btn {

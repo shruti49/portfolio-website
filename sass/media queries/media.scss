@@ -31,14 +31,6 @@
     font-size: 1.7rem;
   }
 
-  .projects-grid {
-    max-width: 40rem;
-    grid-template-columns: $column-template;
-  }
-  .project-tile {
-    height: 40rem;
-  }
-
   .container {
     flex-direction: column;
     align-items: center;
@@ -52,11 +44,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .projects-grid {
-    max-width: 31rem;
-    grid-template-columns: $column-template;
-  }
   .project-tile {
-    height: 30rem;
+    height: 20rem;
   }
 }
