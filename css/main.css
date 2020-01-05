@@ -144,28 +144,28 @@ header {
 .project-tile {
   background: #e0ebe8;
   border-radius: 2px;
-  height: 30rem;
+  height: 20rem;
   padding: 0 2rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
   .project-tile:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: all 0.3s ease-in; }
   .project-tile_title {
-    margin-top: 1rem;
     color: #21564b;
     font-size: 2rem;
     text-transform: capitalize; }
   .project-tile_descp {
     font-size: 1.5rem; }
   .project-tile_stack {
-    margin: 2.5rem 0;
     font-size: 1.5rem;
     font-weight: 100; }
   .project-tile_links {
     display: flex;
-    margin-top: 3rem;
     justify-content: space-evenly; }
     .project-tile_links a {
       font-size: 1.5rem;
@@ -332,7 +332,3 @@ footer {
   .copyright,
   .top-btn {
     margin-bottom: 2rem; } }
-
-@media only screen and (max-width: 500px) {
-  .project-tile {
-    height: 20rem; } }
