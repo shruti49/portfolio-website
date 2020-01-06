@@ -2,7 +2,6 @@
   .main-nav__link {
     font-size: 1.8rem;
   }
-
   .welcome-section {
     font-size: 3rem;
     font-weight: 600;
@@ -23,12 +22,18 @@
     font-size: 2.5rem;
   }
 
-  .aboutme-description {
-    font-size: 1.8rem;
-  }
+  .aboutme-section {
+    .aboutme-img {
+      max-width: 13rem;
+    }
 
-  .about-btn_download {
-    font-size: 1.7rem;
+    .aboutme-description {
+      font-size: 1.8rem;
+    }
+    
+    .about-btn_download {
+      font-size: 1.7rem;
+    }
   }
 
   .container {

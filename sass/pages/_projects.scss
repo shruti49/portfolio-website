@@ -29,7 +29,7 @@
   border-radius: 2px;
   height: 20rem;
   padding: 0 2rem;
-  box-shadow: $shadow-card;
+  // box-shadow: $shadow-card;
 
   display: flex;
   flex-direction: column;
@@ -67,7 +67,6 @@
       font-size: 1.5rem;
       font-weight: 700;
       color: $color-green-one;
-      text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.24);
     }
   }
 }

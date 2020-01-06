@@ -149,7 +149,6 @@ header {
   border-radius: 2px;
   height: 20rem;
   padding: 0 2rem;
-  box-shadow: 0 0 8px 0 rgba(17, 22, 26, 0.16), 0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly; }
@@ -171,8 +170,7 @@ header {
     .project-tile_links a {
       font-size: 1.5rem;
       font-weight: 700;
-      color: #45b29a;
-      text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.24); }
+      color: #45b29a; }
 
 .btn {
   font-size: 1.8rem;
@@ -197,7 +195,7 @@ header {
 
 /******SKILLS SECTION*************/
 .skill-section {
-  padding: 10rem 3rem 5rem 3rem;
+  padding: 10rem 3rem;
   text-align: center;
   background-color: #f7f7f7;
   display: flex;
@@ -338,9 +336,11 @@ footer {
   .skill-section_title,
   .contact-section_title {
     font-size: 2.5rem; }
-  .aboutme-description {
+  .aboutme-section .aboutme-img {
+    max-width: 13rem; }
+  .aboutme-section .aboutme-description {
     font-size: 1.8rem; }
-  .about-btn_download {
+  .aboutme-section .about-btn_download {
     font-size: 1.7rem; }
   .container {
     flex-direction: column;
