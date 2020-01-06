@@ -33,6 +33,7 @@
   text-transform: capitalize;
   color: $color-two;
   cursor: pointer;
+  box-shadow: $shadow-btn;
 
   &:focus {
     outline: none;
@@ -46,6 +47,7 @@
     background: $color-one;
     color: $color-green-one;
     outline: 3px solid $color-green-one;
-    transition: all 0.3s ease-out;
+    box-shadow: $shadow-btn;
+    transition: all 0.3s ease;
   }
 }

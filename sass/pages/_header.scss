@@ -38,6 +38,7 @@ header {
 .main-nav_link {
   font-size: 2rem;
   color: $color-green-one;
+  text-transform: capitalize;
 
   &:hover {
     color: $color-green-two;

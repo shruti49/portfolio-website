@@ -20,3 +20,10 @@ $size-secondary: 3.5rem;
 
 //COLUMN TEMPLATE
 $column-template: repeat(auto-fill, minmax(25rem, 1fr));
+
+//BOX SHADOW
+$shadow-btn: 0 0 8px 0 rgba(17, 22, 26, 0.16),
+  0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08);
+
+$shadow-card: 0 0 8px 0 rgba(17, 22, 26, 0.16),
+  0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08);
