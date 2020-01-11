@@ -3,50 +3,50 @@
   padding: $padding;
   text-align: center;
   background-color: $color-one;
+}
 
-  .aboutme-title {
-    font-size: $size-secondary;
-    text-transform: capitalize;
-    color: $color-green-three;
-    margin-bottom: 2rem;
+.aboutme-title {
+  font-size: $size-secondary;
+  text-transform: capitalize;
+  color: $color-green-three;
+  margin-bottom: 2rem;
+}
+
+.aboutme-img {
+  max-width: 15rem;
+}
+
+.aboutme-description {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  max-width: 50rem;
+}
+
+.aboutme-btn_download {
+  border: none;
+  background-color: $color-green-one;
+  padding: 1.3rem 2rem;
+  border-radius: 2px;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: $color-two;
+  cursor: pointer;
+  box-shadow: $shadow-btn;
+
+  &:focus {
+    outline: none;
   }
 
-  .aboutme-img {
-    max-width: 15rem;
+  & > i {
+    margin-left: 1rem;
   }
 
-  .aboutme-description {
-    font-size: 2rem;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    max-width: 50rem;
-  }
-
-  .aboutme-btn_download {
-    border: none;
-    background-color: $color-green-one;
-    padding: 1.3rem 2rem;
-    border-radius: 2px;
-    font-size: 1.8rem;
-    text-transform: capitalize;
-    color: $color-two;
-    cursor: pointer;
+  &:hover {
+    background: $color-one;
+    color: $color-green-one;
+    outline: 3px solid $color-green-one;
     box-shadow: $shadow-btn;
-
-    &:focus {
-      outline: none;
-    }
-
-    & > i {
-      margin-left: 1rem;
-    }
-
-    &:hover {
-      background: $color-one;
-      color: $color-green-one;
-      outline: 3px solid $color-green-one;
-      box-shadow: $shadow-btn;
-      transition: all 0.3s ease;
-    }
+    transition: all 0.3s ease;
   }
 }

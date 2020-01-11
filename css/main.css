@@ -85,38 +85,42 @@ header {
   padding: 10rem 3rem 5rem 3rem;
   text-align: center;
   background-color: #f7f7f7; }
-  .aboutme-section .aboutme-title {
-    font-size: 3.5rem;
-    text-transform: capitalize;
-    color: #1e836c;
-    margin-bottom: 2rem; }
-  .aboutme-section .aboutme-img {
-    max-width: 15rem; }
-  .aboutme-section .aboutme-description {
-    font-size: 2rem;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-    max-width: 50rem; }
-  .aboutme-section .aboutme-btn_download {
-    border: none;
-    background-color: #45b29a;
-    padding: 1.3rem 2rem;
-    border-radius: 2px;
-    font-size: 1.8rem;
-    text-transform: capitalize;
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0 0 8px 0 rgba(17, 22, 26, 0.16), 0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08); }
-    .aboutme-section .aboutme-btn_download:focus {
-      outline: none; }
-    .aboutme-section .aboutme-btn_download > i {
-      margin-left: 1rem; }
-    .aboutme-section .aboutme-btn_download:hover {
-      background: #f7f7f7;
-      color: #45b29a;
-      outline: 3px solid #45b29a;
-      box-shadow: 0 0 8px 0 rgba(17, 22, 26, 0.16), 0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08);
-      transition: all 0.3s ease; }
+
+.aboutme-title {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #1e836c;
+  margin-bottom: 2rem; }
+
+.aboutme-img {
+  max-width: 15rem; }
+
+.aboutme-description {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  max-width: 50rem; }
+
+.aboutme-btn_download {
+  border: none;
+  background-color: #45b29a;
+  padding: 1.3rem 2rem;
+  border-radius: 2px;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 8px 0 rgba(17, 22, 26, 0.16), 0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08); }
+  .aboutme-btn_download:focus {
+    outline: none; }
+  .aboutme-btn_download > i {
+    margin-left: 1rem; }
+  .aboutme-btn_download:hover {
+    background: #f7f7f7;
+    color: #45b29a;
+    outline: 3px solid #45b29a;
+    box-shadow: 0 0 8px 0 rgba(17, 22, 26, 0.16), 0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08);
+    transition: all 0.3s ease; }
 
 /****************PROJECT SECTION*****************/
 .project-section {
@@ -326,10 +330,10 @@ footer {
       font-size: 2.5rem; }
     .welcome-section_name {
       font-size: 4rem; }
-  .aboutme-title,
   .project-section_title,
   .skill-section_title,
-  .contact-section_title {
+  .contact-section_title,
+  .aboutme-title {
     font-size: 2.5rem; }
   .aboutme-section .aboutme-img {
     max-width: 10rem; }
